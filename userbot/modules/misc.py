@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/muhammadrizky16/Kyy-Userbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Ouraaa/Ouraa-ubot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -59,7 +59,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Kyy-Userbot....`")
+    await event.edit("`Mematikan Ouraa-ubot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting Kyy-Userbot...`")
+    await event.edit("`Restarting Ouraa-ubot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -85,7 +85,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[✨ Kyy-Userbot Repo](https://github.com/muhammadrizky16/Kyy-Userbot/blob/Kyy-Userbot/README.md)"
+        "\n[✨ Ouraa-ubot Repo](https://github.com/Ouraaa/Ouraa-ubot/blob/Ouraa-ubot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -108,10 +108,10 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **✨ҡʏʏ-υѕєявσт✨** \n"
+        "**Hey**, I am using **✨ᴏᴜʀᴀᴀ-ᴜʙᴏᴛ✨** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)\n"
-        "➣ **Owner Bot       :** [ҡʏʏ](t.me/IDnyaKosong)\n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Ouraaa/Ouraa-ubot)\n"
+        "➣ **Owner Bot       :** [ᴏᴜʀᴀᴀ](t.me/IDnyaKosong)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
         "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/NastySupportt)\n"
         "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject)\n"
@@ -275,13 +275,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : `.sleep`\
-    \n  •  **Function : Biarkan Kyy-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Ouraa-ubot tidur selama beberapa detik.",
     "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
-    \n↳ : Menampilan link Repository Kyy-Userbot.",
+    \n↳ : Menampilan link Repository Ouraa-ubot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Kyy-Userbot",
+    \n↳: Menampilkan link String Ouraa-ubot",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
