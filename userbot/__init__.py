@@ -693,12 +693,12 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Alive**\n\n"
-                    f"× `.alive` × `.kyyalive` × `.kyyon`\n"
+                    f"× `.alive` × `.Ouraaalive` × `.kyyon`\n"
                     f"°__Menampilkan Alive Punya Kamu__.\n\n"
                     f"× `.set var ALIVE_LOGO` [**LINK**]\n"
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
                     f"× `.set var KYY_TEKS_KUSTOM` [**TEKS**]\n"
-                    f"°__Mengganti Teks Yang Ada Command KyyAlive__.\n\n"
+                    f"°__Mengganti Teks Yang Ada Command OuraaaAlive__.\n\n"
                     f"© @IDnyaKosong")
                 await event.edit(
                     text,
@@ -905,7 +905,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring Kyy-Userbot**...")
+                    f"**Restaring Ouraa-ubot**...")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -955,26 +955,26 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ✨ҡʏʏ-υѕєявσт✨",
+                    "Bantuan Dari ✨ᴏᴜʀᴀᴀ-ᴜʙᴏᴛ✨",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ✨ҡʏʏ-υѕєявσт✨",
-                    text="""°Kyy-Userbot°""",
+                    " ✨ᴏᴜʀᴀᴀ-ᴜʙᴏᴛ✨",
+                    text="""°Ouraa-ubot°""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ҡʏʏ",
-                                "https://github.com/muhammadrizky16/Kyy-Userbot"),
+                                "https://github.com/Ouraaa/Ouraa-ubot"),
 
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ",
                                 "t.me/NastyProject")],
                         [custom.Button.url(
                             "ʟɪᴄᴇɴsᴇ",
-                            "https://github.com/muhammadrizky16/Kyy-Userbot/LICENSE")],
+                            "https://github.com/Ouraaa/Ouraa-ubot/LICENSE")],
                     ],
                     link_preview=False,
                 )
