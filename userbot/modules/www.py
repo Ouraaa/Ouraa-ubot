@@ -17,17 +17,17 @@ from userbot.events import register
 
 absen = [
     "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
-    "**Hadir kak** 😉",
-    "**Hadir bang** 😁",
+    "**Hadir brokuuu** 😎",
+    "**Hadir sayang** 😉",
+    "**Hadir papoykuu** 😁",
     "**Hadir kak maap telat** 🥺",
 ]
 
 pacar = [
     "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
-    "**Iya Bang kenapa?**",
-    "**Uuyy Bang**",
-    "**Hadir uyy** 😁",
+    "**Iya Bang ada apa kunaon?**",
+    "**Uuyy naon Bang**",
+    "**Hadir nyett uyy** 😁",
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sangean** 😎",
 ]
 
@@ -60,7 +60,7 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
-async def _(kyy):
+async def _(Kyy):
     await kyy.reply(random.choice(absen))
 
 
@@ -84,7 +84,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kyy-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'Ouraa-Userbot` \n" % (duration)
     )
 
 
@@ -122,7 +122,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ҡʏʏ-υѕєявσт✨**\n"
+        f"**✨ᴏᴜʀᴀᴀ-ᴜʙᴏᴛ✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -146,7 +146,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ ҡʏʏ-υѕєявσт ✨**\n\n"
+        f"**✨ ᴏᴜʀᴀᴀ-ᴜʙᴏᴛ ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -202,7 +202,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡʏʏ-υѕєявσт✨"
+        "✧ **BOT:** ✨ᴏᴜʀᴀᴀ-ᴜʙᴏᴛ✨"
     )
 
 
@@ -229,7 +229,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**✨KyyName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**✨Name : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
